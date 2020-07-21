@@ -8,12 +8,12 @@ local dark_panels_content_found = file.Find( "em_darkpanels/*.lua", "LUA" )
 
 if SERVER then
 	for _, v in pairs( dark_panels_content_found ) do
-		AddCSLuaFile( v )
+		AddCSLuaFile( "em_darkpanels/" .. v )
 	end
 end
 
 if CLIENT then
 	for _, v in pairs( dark_panels_content_found ) do
-		include( v )
+		include( "em_darkpanels/" .. v )
 	end
 end
