@@ -1,5 +1,5 @@
 --[[---------------------------------------------------------------------------
-Copyright (c) 2020 TheAsian EggrollMaker & MelonShooter. All rights reserved.
+Copyright (c) 2020 Brian Mak & Steven Mak. All rights reserved.
 --]]---------------------------------------------------------------------------
 
 -- Automatically load the necessary components of em_darkpanels. Parts not packaged in this addon will not be included.
